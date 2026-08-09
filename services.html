@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shyam Transport services — FTL, part load, industrial goods, door-to-door and all India transport.">
+  <meta name="theme-color" content="#071a3d">
+  <title>Services | Shyam Transport</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .services-hero{padding:155px 0 90px;background:radial-gradient(circle at 78% 25%,#153c83 0,#0b2454 30%,#061633 72%);color:#fff;position:relative;overflow:hidden}.services-hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:60px 60px;opacity:.6}.services-hero .container{position:relative;z-index:2}.services-hero .kicker{color:#86adff;font:800 11px Manrope;letter-spacing:2px;margin-bottom:16px}.services-hero .kicker span{display:inline-block;width:28px;height:2px;background:#ffc928;vertical-align:middle;margin-right:9px}.services-hero h1{font:800 clamp(44px,6vw,72px)/1.02 Manrope;letter-spacing:-3px;max-width:820px}.services-hero h1 em{font-style:normal;color:#ffc928}.services-hero p{max-width:650px;color:#b9c6df;margin-top:22px;font-size:15px}
+.service-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.service-large{position:relative;padding:32px;min-height:245px;border-radius:22px;border:1px solid #e2e8f0;background:#fff;overflow:hidden;transition:.3s}.service-large:hover{transform:translateY(-7px);box-shadow:0 25px 55px rgba(6,22,51,.1);border-color:#cbd8f4}.service-large.dark{background:#071b3f;color:#fff;border-color:#173568}.service-large .num{font:800 11px Manrope;color:#9ba9c4;letter-spacing:2px}.service-large .icon{width:48px;height:48px;border-radius:13px;background:#edf3ff;color:#0d5cff;display:grid;place-items:center;font-size:21px;margin:22px 0}.service-large.dark .icon{background:rgba(255,255,255,.08)}.service-large h2{font:800 22px Manrope}.service-large p{font-size:12px;color:#718099;max-width:430px;margin-top:8px}.service-large.dark p{color:#91a0ba}.service-large:after{content:"";position:absolute;right:-40px;bottom:-65px;width:180px;height:180px;border:1px solid rgba(13,92,255,.08);border-radius:50%;box-shadow:0 0 0 35px rgba(13,92,255,.025)}
+.service-title{text-align:center;margin-bottom:45px}.service-title .eyebrow{justify-content:center}.service-title h2{font:800 clamp(38px,5vw,58px) Manrope;letter-spacing:-2px}.service-title h2 em{font-style:normal;color:#0d5cff}.service-title p{max-width:580px;margin:15px auto 0;color:#718099;font-size:13px}
+.fleet-services{background:#061633;color:#fff}.fleet-service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.fleet-service-card{padding:30px;border:1px solid rgba(255,255,255,.09);border-radius:20px;background:linear-gradient(150deg,rgba(255,255,255,.07),rgba(255,255,255,.025));transition:.3s}.fleet-service-card:hover{transform:translateY(-6px);border-color:rgba(255,201,40,.35)}.truck-label{font:800 38px Manrope;color:#ffc928}.fleet-service-card h3{font:800 16px Manrope;margin-top:5px}.fleet-service-card p{color:#8494ae;font-size:11px;margin-top:8px}.capacity-line{height:5px;border-radius:5px;background:rgba(255,255,255,.08);margin-top:24px;overflow:hidden}.capacity-line span{display:block;height:100%;background:#ffc928;border-radius:5px}.w-30{width:30%}.w-55{width:55%}.w-90{width:90%}
+.support-band{background:#eef3f9}.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.support-card{padding:34px;border-radius:22px;background:#fff;border:1px solid #e0e7f0}.support-card.blue{background:#0d5cff;color:#fff;border-color:#0d5cff}.support-card h3{font:800 24px Manrope}.support-card p{font-size:12px;color:#718099;margin:10px 0 20px}.support-card.blue p{color:#d4e2ff}.support-card a{display:inline-flex;padding:11px 15px;border-radius:9px;background:#061633;color:#fff;font:800 11px Manrope}.support-card.blue a{background:#ffc928;color:#061633}
+.service-cta{padding:78px 0;background:linear-gradient(115deg,#07337c,#0d5cff);color:#fff}.service-cta-inner{display:flex;justify-content:space-between;align-items:center;gap:30px}.service-cta h2{font:800 clamp(38px,5vw,56px)/1.05 Manrope;letter-spacing:-2px}.service-cta h2 em{font-style:normal;color:#ffc928}.service-buttons{display:flex;gap:12px;flex-wrap:wrap}.service-buttons a{padding:14px 20px;border-radius:11px;font:800 12px Manrope}.book-btn{background:#ffc928;color:#061633}.quote-btn{border:1px solid rgba(255,255,255,.25)}
+@media(max-width:800px){.service-list,.fleet-service-grid,.support-grid{grid-template-columns:1fr}.service-cta-inner{display:block}.service-buttons{margin-top:25px}}
+@media(max-width:520px){.services-hero{padding:135px 0 70px}.services-hero h1{font-size:43px}}
+  </style>
+</head>
+<body>
+  <div class="scroll-progress"><span id="scrollProgress"></span></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Shyam Transport home">
+        <span class="brand-mark">ST</span>
+        <span><strong>SHYAM</strong><small>TRANSPORT</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Booking</a>
+        <a href="quote.html">Quote</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-cta" href="https://wa.me/917678269027?text=Hello%20Shyam%20Transport%2C%20I%20would%20like%20a%20transport%20quote." target="_blank" rel="noopener">Get Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="services-hero">
+      <div class="container">
+        <div class="kicker"><span></span> TRANSPORT SERVICES</div>
+        <h1>Freight solutions for<br><em>every business move.</em></h1>
+        <p>Flexible road transport services designed around load type, vehicle capacity, route and delivery requirements.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="service-title">
+          <div class="eyebrow"><span></span> OUR SERVICES</div>
+          <h2>One partner. <em>More ways to move.</em></h2>
+          <p>Choose the service that fits your shipment. Our team can help you plan the right vehicle and route.</p>
+        </div>
+
+        <div class="service-list">
+          <article class="service-large">
+            <span class="num">01 / FTL</span><div class="icon">▣</div><h2>Full Truck Load</h2><p>Dedicated vehicle capacity for consignments that need efficient point-to-point movement with practical load planning.</p>
+          </article>
+          <article class="service-large dark">
+            <span class="num">02 / PART LOAD</span><div class="icon">◫</div><h2>Part Load</h2><p>Flexible transportation support for smaller consignments where a full truck may not be required.</p>
+          </article>
+          <article class="service-large dark">
+            <span class="num">03 / INDUSTRIAL</span><div class="icon">⚙</div><h2>Industrial Goods Transportation</h2><p>Road transport coordination for machinery, commercial materials and industrial goods, subject to route and load requirements.</p>
+          </article>
+          <article class="service-large">
+            <span class="num">04 / DELIVERY</span><div class="icon">↗</div><h2>Door-to-Door Delivery</h2><p>Coordinate collection from the loading point and delivery toward the requested destination with direct communication.</p>
+          </article>
+          <article class="service-large">
+            <span class="num">05 / PAN INDIA</span><div class="icon">◎</div><h2>All India Transport Service</h2><p>Transport planning for business freight across India with route, capacity and vehicle availability considered.</p>
+          </article>
+          <article class="service-large dark">
+            <span class="num">06 / SUPPORT</span><div class="icon">24</div><h2>24x7 Support</h2><p>Responsive communication for enquiries, load planning and transport coordination whenever your business needs support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fleet-services" id="load-categories">
+  <div class="container">
+    <div class="service-title">
+      <div class="eyebrow"><span></span> LOAD CATEGORIES</div>
+      <h2>Capacity for <em>every load.</em></h2>
+      <p>Choose the category that best matches your shipment weight and vehicle requirement.</p>
+    </div>
+    <div class="fleet-service-grid">
+      <article class="fleet-service-card">
+        <div class="truck-label">1–5 MT</div>
+        <h3>LIGHT LOAD</h3>
+        <p>1 MT to 5 MT — suitable for lighter commercial consignments.</p>
+        <div class="capacity-line"><span class="w-30"></span></div>
+      </article>
+      <article class="fleet-service-card">
+        <div class="truck-label">5–10 MT</div>
+        <h3>MEDIUM LOAD</h3>
+        <p>5 MT to 10 MT — balanced capacity for regular business freight.</p>
+        <div class="capacity-line"><span class="w-55"></span></div>
+      </article>
+      <article class="fleet-service-card">
+        <div class="truck-label">10–24 MT</div>
+        <h3>HEAVY LOAD</h3>
+        <p>10 MT to 24 MT — higher capacity for larger and heavier consignments.</p>
+        <div class="capacity-line"><span class="w-90"></span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+    <section class="section support-band">
+      <div class="container">
+        <div class="support-grid">
+          <article class="support-card">
+            <h3>Need to book a truck?</h3>
+            <p>Share your loading point, destination, load details and preferred capacity to start the booking discussion.</p>
+            <a href="booking.html">Booking Page →</a>
+          </article>
+          <article class="support-card blue">
+            <h3>Need a freight quote?</h3>
+            <p>Request a route-specific quote after sharing the details of your shipment.</p>
+            <a href="quote.html">Request Quote →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-cta">
+      <div class="container service-cta-inner">
+        <h2>Tell us what you need<br><em>to move today.</em></h2>
+        <div class="service-buttons">
+          <a class="book-btn" href="booking.html">Book a Truck ↗</a>
+          <a class="quote-btn" href="quote.html">Get a Quote</a>
+          <a class="quote-btn" href="https://wa.me/917678269027?text=Hello%20Shyam%20Transport%2C%20I%20need%20transport%20service." target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html"><span class="brand-mark">ST</span><span><strong>SHYAM</strong><small>TRANSPORT</small></span></a>
+        <p>Professional road transport and freight coordination for businesses across India.</p>
+      </div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="booking.html">Booking</a><a href="quote.html">Quote</a><a href="contact.html">Contact</a></div>
+      <div><h4>Contact</h4><a href="tel:+917678269027">+91 7678269027</a><a href="mailto:anoopdubey767826@gmail.com">anoopdubey767826@gmail.com</a><span>Near Krishna Defence Academy,<br>Gooba Garden, Kalyanpur,<br>Kanpur 208017</span></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span id="year"></span> Shyam Transport. All rights reserved.</span><span>Owner: Anoop Dubey</span></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/917678269027?text=Hello%20Shyam%20Transport%2C%20I%20would%20like%20to%20discuss%20a%20load." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><span>◉</span></a>
+
+  <script src="script.js"></script>
+</body>
+</html>

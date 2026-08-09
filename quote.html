@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a transport freight quote from Shyam Transport.">
+  <meta name="theme-color" content="#071a3d">
+  <title>Request a Quote | Shyam Transport</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .quote-hero{padding:155px 0 85px;background:radial-gradient(circle at 78% 25%,#153c83 0,#0b2454 30%,#061633 72%);color:#fff;position:relative;overflow:hidden}.quote-hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:60px 60px;opacity:.6}.quote-hero .container{position:relative;z-index:2}.quote-kicker{color:#86adff;font:800 11px Manrope;letter-spacing:2px;margin-bottom:16px}.quote-kicker span{display:inline-block;width:28px;height:2px;background:#ffc928;vertical-align:middle;margin-right:9px}.quote-hero h1{font:800 clamp(44px,6vw,68px)/1.02 Manrope;letter-spacing:-3px}.quote-hero h1 em{font-style:normal;color:#ffc928}.quote-hero p{max-width:650px;color:#b9c6df;margin-top:20px;font-size:15px}
+.quote-section{background:#edf2f8;padding:80px 0}.quote-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:start}.quote-panel{background:#fff;border:1px solid #e0e7f0;border-radius:24px;padding:32px;box-shadow:0 20px 55px rgba(6,22,51,.08)}.quote-panel h2{font:800 27px Manrope;color:#061633}.quote-panel>p{color:#7b889d;font-size:12px;margin:7px 0 25px}.quote-form{display:grid;grid-template-columns:1fr 1fr;gap:17px}.quote-form label{font-size:11px;font-weight:800;color:#52617a}.quote-form input,.quote-form select{display:block;width:100%;height:49px;margin-top:7px;border:1px solid #dce3ed;background:#f8fafc;border-radius:10px;padding:0 13px;color:#172743;outline:none;transition:.2s}.quote-form input:focus,.quote-form select:focus{border-color:#6c99ff;box-shadow:0 0 0 4px rgba(13,92,255,.08)}.quote-form .full{grid-column:1/-1}.quote-actions{grid-column:1/-1;display:flex;gap:11px;flex-wrap:wrap}.quote-actions .btn{cursor:pointer;border:0}.quote-side{background:#061633;color:#fff;border-radius:24px;padding:30px;position:sticky;top:110px;box-shadow:0 20px 55px rgba(6,22,51,.15)}.quote-side h3{font:800 24px Manrope}.quote-side p{color:#91a0ba;font-size:12px;margin-top:8px}.quote-points{margin-top:25px}.quote-points div{padding:14px 0;border-top:1px solid rgba(255,255,255,.09);font-size:11px;color:#cbd7e9}.quote-points b{color:#ffc928;margin-right:8px}.quote-note{margin-top:20px;padding:14px;border-radius:11px;background:rgba(255,201,40,.08);border:1px solid rgba(255,201,40,.15);color:#d5deee;font-size:10px}.quote-success{display:none;grid-column:1/-1;padding:14px;border-radius:10px;background:#eaf8f0;color:#17683e;border:1px solid #bce7cf;font-size:11px;font-weight:700}.quote-success.show{display:block}
+.quote-cta{padding:75px 0;background:linear-gradient(115deg,#07337c,#0d5cff);color:#fff}.quote-cta-inner{display:flex;justify-content:space-between;align-items:center;gap:30px}.quote-cta h2{font:800 clamp(36px,4vw,52px)/1.05 Manrope;letter-spacing:-2px}.quote-cta h2 em{font-style:normal;color:#ffc928}.quote-cta a{display:inline-flex;padding:14px 20px;border-radius:11px;background:#ffc928;color:#061633;font:800 12px Manrope}
+@media(max-width:850px){.quote-layout{grid-template-columns:1fr}.quote-side{position:relative;top:auto}.quote-form{grid-template-columns:1fr}.quote-form .full,.quote-actions,.quote-success{grid-column:auto}.quote-cta-inner{display:block}}
+@media(max-width:520px){.quote-hero{padding:135px 0 70px}.quote-hero h1{font-size:43px}.quote-panel,.quote-side{padding:22px}}
+  </style>
+</head>
+<body>
+  <div class="scroll-progress"><span id="scrollProgress"></span></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">ST</span><span><strong>SHYAM</strong><small>TRANSPORT</small></span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="booking.html">Booking</a><a href="quote.html">Quote</a><a href="contact.html">Contact</a>
+        <a class="nav-cta" href="quote.html">Get Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="quote-hero">
+      <div class="container">
+        <div class="quote-kicker"><span></span> FREIGHT QUOTE</div>
+        <h1>Know your freight<br><em>before you move.</em></h1>
+        <p>Send your route, load and vehicle requirements to Shyam Transport for a professional quote discussion.</p>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container quote-layout">
+        <div class="quote-panel reveal">
+          <h2>Request a Quote</h2>
+          <p>Share accurate shipment details so we can understand your requirement.</p>
+          <form class="quote-form" id="quoteForm" novalidate>
+            <label>Name *
+              <input id="quoteName" type="text" autocomplete="name" minlength="2" required placeholder="Your full name">
+            </label>
+            <label>Phone *
+              <input id="quotePhone" type="tel" autocomplete="tel" inputmode="tel" pattern="[+]?[0-9 ()-]{10,17}" required placeholder="+91 98765 43210">
+            </label>
+            <label>Pickup Location *
+              <input id="quotePickup" type="text" required placeholder="Loading point / city">
+            </label>
+            <label>Delivery Location *
+              <input id="quoteDelivery" type="text" required placeholder="Destination / city">
+            </label>
+            <label>Truck Capacity *
+              <select id="quoteCapacity" name="capacity" required>
+  <option value="" selected disabled>Select load category</option>
+  <option>LIGHT LOAD — 1 MT to 5 MT</option>
+  <option>MEDIUM LOAD — 5 MT to 10 MT</option>
+  <option>HEAVY LOAD — 10 MT to 24 MT</option>
+</select>
+            </label>
+            <label>Material Type *
+              <input id="quoteMaterial" type="text" required placeholder="e.g. FMCG, steel, machinery">
+            </label>
+            <label>Approximate Weight *
+              <input id="quoteWeight" type="text" required placeholder="e.g. 8 MT / 8,000 kg">
+            </label>
+            <label>Pickup Date *
+              <input id="quoteDate" type="date" required>
+            </label>
+            <div class="quote-success" id="quoteSuccess" role="status">Quote details are ready. Click “WhatsApp Quote” to send the request directly.</div>
+            <div class="quote-actions">
+              <button class="btn btn-primary" type="submit">Submit Quote Request <span>→</span></button>
+              <a class="btn" id="quoteWhatsApp" style="background:#061633;color:#fff" href="https://wa.me/917678269027?text=Hello%20Shyam%20Transport%2C%20I%20want%20a%20freight%20quote." target="_blank" rel="noopener">WhatsApp Quote ↗</a>
+            </div>
+          </form>
+        </div>
+
+        <aside class="quote-side reveal reveal-delay">
+          <div class="eyebrow"><span></span> WHAT WE NEED</div>
+          <h3>Better details. Better quote.</h3>
+          <p>Route and load information helps us understand the transport requirement before discussing the final freight.</p>
+          <div class="quote-points">
+            <div><b>01</b> Pickup and delivery locations</div>
+            <div><b>02</b> Vehicle capacity and approximate weight</div>
+            <div><b>03</b> Material type and pickup date</div>
+            <div><b>04</b> Any special transport requirement</div>
+          </div>
+          <div class="quote-note">Final freight is confirmed after reviewing route, load, vehicle availability and operating conditions.</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="quote-cta">
+      <div class="container quote-cta-inner">
+        <h2>Need a quick answer?<br><em>Talk to us directly.</em></h2>
+        <a href="https://wa.me/917678269027?text=Hello%20Shyam%20Transport%2C%20please%20share%20a%20quote%20for%20my%20load." target="_blank" rel="noopener">WhatsApp Shyam Transport ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">ST</span><span><strong>SHYAM</strong><small>TRANSPORT</small></span></a><p>Professional road transport and freight coordination for businesses across India.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="booking.html">Booking</a><a href="quote.html">Quote</a><a href="contact.html">Contact</a></div>
+      <div><h4>Contact</h4><a href="tel:+917678269027">+91 7678269027</a><a href="mailto:anoopdubey767826@gmail.com">anoopdubey767826@gmail.com</a><span>Near Krishna Defence Academy,<br>Gooba Garden, Kalyanpur,<br>Kanpur 208017</span></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span id="year"></span> Shyam Transport. All rights reserved.</span><span>Owner: Anoop Dubey</span></div>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/917678269027?text=Hello%20Shyam%20Transport%2C%20I%20would%20like%20to%20discuss%20a%20load." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><span>◉</span></a>
+  <script src="script.js"></script>
+  <script>
+    (() => {
+      const form = document.getElementById("quoteForm");
+      const success = document.getElementById("quoteSuccess");
+      const wa = document.getElementById("quoteWhatsApp");
+      const date = document.getElementById("quoteDate");
+      date.min = new Date().toISOString().split("T")[0];
+      form.addEventListener("submit", e => {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        const data = {
+          name: document.getElementById("quoteName").value.trim(),
+          phone: document.getElementById("quotePhone").value.trim(),
+          pickup: document.getElementById("quotePickup").value.trim(),
+          delivery: document.getElementById("quoteDelivery").value.trim(),
+          capacity: document.getElementById("quoteCapacity").value,
+          material: document.getElementById("quoteMaterial").value.trim(),
+          weight: document.getElementById("quoteWeight").value.trim(),
+          date: document.getElementById("quoteDate").value
+        };
+        const message = `Hello Shyam Transport,\n\nQUOTE REQUEST\nName: ${data.name}\nPhone: ${data.phone}\nPickup: ${data.pickup}\nDelivery: ${data.delivery}\nTruck: ${data.capacity}\nMaterial: ${data.material}\nApprox. Weight: ${data.weight}\nPickup Date: ${data.date}`;
+        wa.href = `https://wa.me/917678269027?text=${encodeURIComponent(message)}`;
+        success.classList.add("show");
+      });
+    })();
+  </script>
+</body>
+</html>
